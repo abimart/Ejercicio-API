@@ -1,0 +1,4 @@
+Para el corecto funcionamiento del programa es necesario instalar las siguientes librerias ensu entorno de desarrollo:
+    - pandas
+    - requests
+    
