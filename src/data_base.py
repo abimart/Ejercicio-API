@@ -24,3 +24,9 @@ class ConexionDateBase():
         except Exception as error:
             self.con.close()
             print (error)
+
+    def showTable(self):
+        self.cursor = self.con.cursor()
+        self.cursor.execute(f"SELECT region, country, language, time FROM data_lenguage")
+        rows = self.cursor.fetchall()
+        return rows 
