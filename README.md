@@ -1,4 +1,4 @@
-# Tangelo-challenge
+# Ejercio de uso de API y libreria de Pandas
 ## Obtener informacion de los diferentes paises
 
 Desarrolle una aplicación en python que genere la tabla anterior teniendo las siguientes consideraciones::
